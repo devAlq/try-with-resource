@@ -4,9 +4,8 @@
 
 **Objective**
 
- helps close the resources declared in the try block automatically after the execution of the block is complete.
-
-In this project we will learn 
+ In this project we will learn, The `try-with-resources` statement is a try statement that declares one or more resources.
+ A resource is an object that must be closed after the program is finished with it.
 **Concepts**
 
 | Concept   |      Resources      |
