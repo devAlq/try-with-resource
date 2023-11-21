@@ -11,7 +11,8 @@
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Try with resource concept| [Try with resource concept](https://www.youtube.com/watch?v=Cd-psBep2f4)|
+|Try with resource concept| [try with resource concept](https://www.youtube.com/watch?v=Cd-psBep2f4)|
+|Exception Handling – The try-with-resources statement|[try-with-resources statement](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
 
 
 **Problem**
