@@ -16,17 +16,21 @@
 
 **Problem**
 
-Use the "try-with-resources" statement to read a file and perform a specific action.
+Use the `try-with-resource` statement to read a file and perform a specific action.
 
 **Implementation**
 
-Use resource object BufferedReader in the try block to read the file and automatically close it once the try block is finished with execution.
-* Create a text file named "data.txt" in the same directory as your Java file. Add some text content to the file
-* Create a BufferedReader object using the FileReader to read the contents of the "data.txt" file.
+Using the provided `data.txt` file, do the following steps.
+1. Create an instance of `FileReader`, and pass it as a resource object.
+2. Use the `BufferedReader` class to read `data.txt` file content.
+3. Print the content of `data.txt` file.
+
+> Note: `try-with-resource` block is used to read the file and automatically close it once the try block is finished with execution.
 
 
   
 ```Java
+
 
 
 ```
