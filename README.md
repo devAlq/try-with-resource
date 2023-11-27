@@ -31,6 +31,10 @@ Using the provided `data.txt` file, do the following steps.
   
 ```Java
 
-
+public class Main {
+    public static void main(String[] args) {
+        try (FileReader fileReader = new FileReader("data.txt");
+       }
+}
 
 ```
