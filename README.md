@@ -4,15 +4,14 @@
 
 **Objective**
 
- In this project we will learn, The `try-with-resources` statement.
+ In this project we will learn, The `try-with-resource` statement.
 
 **Concepts**
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Java try with resources (Examples)| [try with resource (Tutorial)](https://www.youtube.com/watch?v=Cd-psBep2f4)|
-|Explanation of try with resources|[try-with-resources Concept](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
-|||
+|Java try with resource (Examples)| [try with resource (Tutorial)](https://www.youtube.com/watch?v=Cd-psBep2f4)|
+|Explanation of try with resource|[try-with-resource Concept](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
 
 
 **Problem**
