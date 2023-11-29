@@ -10,8 +10,8 @@
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Java try with resource (Examples)| [try with resource (Tutorial)](https://www.youtube.com/watch?v=Cd-psBep2f4)|
-|Explanation of try with resource|[try-with-resource Concept](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
+|Java try with resource | [try with resource (Tutorial)](https://www.youtube.com/watch?v=Cd-psBep2f4)|
+|Explanation of try with resource|[try-with-resource documentation](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
 
 
 **Problem**
@@ -33,8 +33,12 @@ Using the provided `data.txt` file, and `try with resource` to do the following 
 
 public class Main {
     public static void main(String[] args) {
-        try (FileReader fileReader = new FileReader("data.txt");
-       }
+        String path = System.getProperty("user.dir");
+        
+        System.out.println(path);
+        
+        /* your code here */
+    }
 }
 
 ```
