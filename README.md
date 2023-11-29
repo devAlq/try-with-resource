@@ -20,7 +20,7 @@ Use the `try-with-resource` statement to read a file and perform a specific acti
 
 **Implementation**
 
-Using the provided `data.txt` file, do the following steps.
+Using the provided `data.txt` file, and `try with resource` to do the following steps.
 1. Create an instance of `FileReader`, and pass it as a resource object.
 2. Use the `BufferedReader` class to read `data.txt` file content.
 3. Print the content of `data.txt` file.
