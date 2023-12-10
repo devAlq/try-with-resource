@@ -4,42 +4,37 @@
 
 **Objective**
 
- In this project we will learn, The `try-with-resource` statement.
+By the end of this project, you will be able to handle exceptions using the `try-with-resource` statement.
 
 **Concepts**
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Java try with resource | [try with resource (Tutorial)](https://www.youtube.com/watch?v=Cd-psBep2f4)|
+|Java try with resource | [try with resource overview](https://textbooks.cs.ksu.edu/cc210/10-exceptions/06-java/06-resources/index.print.html#:~:text=That%20Scanner%20object%20is%20the,the%20Try%20with%20Resources%20statement.)|
+|Try with resources using the Scanner|[try with resource using scanner object(Tutorial)](https://www.youtube.com/watch?v=paLsAtlA5wo)|
 |Explanation of try with resource|[try-with-resource documentation](https://javabeginnerstutorial.com/core-java-tutorial/exception-handling-try-resources/)|
 
 
 **Problem**
 
-Use the `try-with-resource` statement to read a file and perform a specific action.
+Use the `try-with-resource` concept to read input from the user.
 
 **Implementation**
 
-Use the provided `data.txt` file, and `try with resource` concept to do the following steps.
-* Create a `BufferedReader` object within a try-with-resources block, which reads the content file `new FileReader(path)`.
-* Within the try block, read each line from the file and print it.
-* If any `IOException` occurs during file reading, catch it in the catch block and print an error message indicating that an error occurred while reading the file.
+* Create inside the try block, a `Scanner` object to read input `name` from `System.in`.
+* Display a greeting message with the entered name using System.out.println().
+
+
+  > The Scanner resource is automatically closed at the end of the try block.
   
-> Make sure that the "data.txt" file is located at the correct path relative to the current working directory before running the code.
 
-
-> Note: `try-with-resource` block is used to read the file and automatically close it once the try block is finished with execution.
-
-  
 ```Java
 
 public class Main {
     public static void main(String[] args) {
-        String path = System.getProperty("user.dir");
-        
-        System.out.println(path);
-        
-        /* your code here */
+          /* try (Scanner object)) { 
+                your code here */
+           }
     }
 }
 
